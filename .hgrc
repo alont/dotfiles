@@ -1,0 +1,10 @@
+[ui]
+username = Alon Tal <atal@akamai.com>
+ignore = ~/.hgignore_global
+
+[extensions]
+extdiff =
+convert = 
+
+[extdiff]
+cmd.vimdiff =

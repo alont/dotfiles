@@ -1,0 +1,8 @@
+caption always "%{wK}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wK}%?%+Lw%? %= %{= Kw}%110`%109`%111`"
+silencewait 15
+defscrollback 9999
+ignorecase on
+shell "/usr/bin/zsh"
+
+# Make ssh-agent work with screen (from https://gist.github.com/martijnvermaat/8070533):
+setenv SSH_AUTH_SOCK $HOME/.ssh/ssh_auth_sock
